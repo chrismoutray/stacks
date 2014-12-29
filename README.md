@@ -1,32 +1,39 @@
+# Stacks
 
-# install yeoman, grunt, grunt-karma
+## what to do after pull from github
 
-npm install -g yo
-npm install -g grunt-cli
-npm install -g grunt-karma
-npm install -g generator-angularfire
+???
 
-# make project folder
+## steps to setup from scratch
 
-mkdir stacks && cd stacks
+### install yeoman, grunt, grunt-karma
 
-# generate project
+    npm install -g yo
+    npm install -g grunt-cli
+    npm install -g grunt-karma
+    npm install -g generator-angularfire
 
-yo angularfire stacks
+### make project folder
 
-# install karma locally
+    mkdir stacks && cd stacks
 
-npm install grunt-karma --save-dev
-npm install karma-jasmine --save-dev
+### generate project
 
-# remove cwd property ie delete this line
+    yo angularfire stacks
+
+### install karma locally
+
+    npm install grunt-karma --save-dev
+    npm install karma-jasmine --save-dev
+
+### remove cwd property ie delete this line
 
     cwd: '<%= yeoman.app %>'
 
-# build > creates dist folder
+### build > creates dist folder
 
-grunt
+    grunt
 
-# serve > serves app folder and starts watching for change
+### serve > serves app folder and starts watching for change
 
-grunt serve
+    grunt serve
