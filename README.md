@@ -5,6 +5,8 @@
 - Run NodeJS command prompt as admin
 - The module *socket.io-client* may throw build errors when doing npm install - ignore these
 
+Assumes npm and bower have been installed globally
+
     set GYP_MSVS_VERSION=2013
 
     npm cache clean
