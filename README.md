@@ -2,26 +2,28 @@
 
 ## what to do after clone from github
 
-RUN nodejs cmd prompt as admin
-Ignore the vscproj build errors related to socket.io-client
+- Run NodeJS command prompt as admin
+- The module *socket.io-client* may throw build errors when doing npm install - ignore these
 
-set GYP_MSVS_VERSION=2013
+    set GYP_MSVS_VERSION=2013
 
-npm cache clean
-npm install -g grunt-cli --save-dev
-npm install grunt --save-dev
-npm install socket.io-client --save-dev --msvs_version=2013
-npm install karma-phantomjs-launcher --save-dev
-npm install --msvs_version=2013
-bower install
+    npm cache clean
+    npm install -g grunt-cli --save-dev
+    npm install grunt --save-dev
+    npm install socket.io-client --save-dev --msvs_version=2013
+    npm install karma-phantomjs-launcher --save-dev
+    npm install --msvs_version=2013
+    bower install
 
-grunt test
+### run through grunt commands to test it
 
-grunt
+    grunt test
 
-grunt clean
+    grunt
 
-grunt serve
+    grunt clean
+
+    grunt serve
 
 ## steps to setup from scratch
 
