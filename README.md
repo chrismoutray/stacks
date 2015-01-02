@@ -1,8 +1,26 @@
+LINK : fatal error LNK1181: cannot open input file 'Release\obj\bufferutil\bufferutil.obj' [\node_modules\karma\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\build\bufferutil.vcxproj]
+LINK : fatal error LNK1181: cannot open input file 'Release\obj\validation\validation.obj' [\node_modules\karma\node_modules\socket.io\node_modules\socket.io-client\node_modules\ws\build\validation.vcxproj]
+
 # Stacks
 
-## what to do after pull from github
+## what to do after clone from github
 
-???
+RUN nodejs cmd prompt as admin
+
+set GYP_MSVS_VERSION=2012
+
+npm install grunt --save-dev
+npm install grunt-cli --save-dev
+npm install -g grunt-cli
+
+npm install karma --save-dev
+npm install grunt-karma --save-dev
+npm install karma-jasmine --save-dev
+
+npm install imagemin-gifsicle  --save-dev
+
+npm install
+bower install
 
 ## steps to setup from scratch
 
