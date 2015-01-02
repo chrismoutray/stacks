@@ -18,11 +18,8 @@
 ### run through grunt commands to test it
 
     grunt test
-
     grunt
-
     grunt clean
-
     grunt serve
 
 ## steps to setup from scratch
@@ -36,7 +33,8 @@
 
 ### make project folder
 
-    mkdir stacks && cd stacks
+    mkdir stacks
+    cd stacks
 
 ### generate project
 
